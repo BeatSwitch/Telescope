@@ -1,0 +1,115 @@
+/* _colors */
+
+$header-bg: #083E5E;
+
+/* _header.scss */
+
+.header-wrapper{
+  background: none;
+}
+
+.users-account-menu, .users-menu{
+  .dropdown-toggle{
+  	border: 2px solid #FFF;
+  	border-radius: 3px;
+  	padding: 10px;
+  	color: #FFF;
+  }
+}
+
+
+
+.masthead {
+	height: 350px;
+	background-image: url('	https://s3-eu-west-1.amazonaws.com/festivaltech/masthead.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #083E5E;
+}
+
+.main {
+	padding-top: 20px;
+}
+
+.footer-wrapper {
+	background: $header-bg;
+	color: #FFF;
+	padding: 20px;
+	margin-top: 50px;
+}
+
+/* _other.scss */
+
+.footer {
+    margin-bottom: 0;
+}
+
+body {
+	background-color: #F5F5F5;
+}
+
+h4, .h4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.posts-day, .posts-page {
+    padding: 10px 20px 0 20px;
+    background: #FFF;
+    border-radius: 5px;
+    border: 1px solid #E6E6E6;
+}
+
+.posts-day {
+    margin-bottom: 20px;
+}
+
+.posts-day-heading {
+	color: #999;
+	border-bottom: 1px solid #ddd;
+    padding: 15px 0px;
+}
+
+.posts-list-content {
+    border-top: none;
+}
+
+h3, .h3 {
+    font-weight:400;
+}
+
+.posts-item:last-child {
+    border-bottom: 0px solid #ddd;
+}
+
+.posts-page {
+	padding: 30px 20px 40px 20px;
+}
+
+.posts-page-body {
+	font-size: 1rem;
+
+	h3 {
+		font-size: 1.3rem;
+	}
+}
+
+
+
+.newsletter .newsletter-form {
+    display: block;
+}
+
+.newsletter {
+ 	display: block;
+ 	padding: 30px 20px 40px 20px;
+
+ 	.newsletter-tagline {
+ 		margin-bottom: 20px;
+ 	}
+
+ 	.btn-primary {
+	 	display: block;
+	    width: 100%;
+ 	}
+}

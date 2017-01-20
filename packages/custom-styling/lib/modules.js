@@ -1,0 +1,7 @@
+import "./components/CustomLogo.jsx"
+import "./components/CustomHeader.jsx"
+import "./components/CustomLanguage.jsx"
+import "./components/CustomFooter.jsx"
+import "./components/CustomPostListHeader.jsx"
+import "./components/CustomLayout.jsx"
+import "./components/CustomNewsletter.jsx"

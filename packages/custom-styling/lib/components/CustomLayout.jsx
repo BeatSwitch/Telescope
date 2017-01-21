@@ -14,6 +14,13 @@ class Layout extends Component {
           <Components.UsersProfileCheck {...this.props} />
 
           <Components.Header {...this.props}/>
+		
+			<div className="text">
+
+					<h1>The latest news in the festival industry</h1> 
+					<h2>The latest festival technology news, curated by the leaders shaping the industry.</h2>
+
+			</div>
 
         </div>
       

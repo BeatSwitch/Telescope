@@ -1,6 +1,6 @@
 /* _colors */
 
-$header-bg: #083E5E;
+$header-bg: #204261;
 
 /* _header.scss */
 
@@ -20,11 +20,32 @@ $header-bg: #083E5E;
 
 
 .masthead {
-	height: 350px;
+	height: 340px;
 	background-image: url('	https://s3-eu-west-1.amazonaws.com/festivaltech/masthead.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #083E5E;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: $header-bg;
+
+	.text{
+
+		margin-top: 40px;
+
+	h1 {
+		text-align: center;
+		color: #FFF;
+		font-size: 30px;
+		text-transform: uppercase;
+	}
+
+	h2 {
+		text-align: center;
+		color: white;
+		font-size: 25px;
+		font-weight: 200;
+		line-height: 40px;
+	}
+
+	}
 }
 
 .main {
@@ -42,6 +63,11 @@ $header-bg: #083E5E;
 
 .footer {
     margin-bottom: 0;
+
+	a {
+		color: #FFF;
+		text-decoration: underline;
+	}
 }
 
 body {

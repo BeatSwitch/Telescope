@@ -47,5 +47,8 @@ accounts-password@1.3.3
 # framework-demo
 =======
 custom-styling
+<<<<<<< HEAD
 framework-demo
 >>>>>>> Add custom module
+=======
+>>>>>>> Remove framework demo

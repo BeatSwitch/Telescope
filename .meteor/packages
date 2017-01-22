@@ -11,13 +11,10 @@ nova:users                      # user management and permissions
 
 nova:events
 nova:posts
-nova:comments
 nova:newsletter
 nova:search
 nova:notifications
-nova:getting-started
 nova:categories
-nova:voting
 nova:embedly
 nova:api
 nova:rss

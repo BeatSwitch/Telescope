@@ -1,4 +1,4 @@
-import { Components, registerComponent } from 'meteor/nova:lib';
+import { Components, replaceComponent } from 'meteor/nova:lib';
 import React, { PropTypes, Component } from 'react';
 import { FormattedMessage, FormattedRelative } from 'react-intl';
 import { ModalTrigger } from "meteor/nova:core";
@@ -35,11 +35,6 @@ class PostsItem extends Component {
 
     return (
       <div className={postClass}>
-
-        <div className="posts-item-vote">
-          <Components.Vote collection={Posts} document={post} currentUser={this.props.currentUser}/>
-        </div>
-
         {post.thumbnailUrl ? <Components.PostsThumbnail post={post}/> : null}
 
         <div className="posts-item-content">
@@ -48,14 +43,14 @@ class PostsItem extends Component {
             <Link to={Posts.getLink(post)} className="posts-item-title-link" target={Posts.getLinkTarget(post)}>
               {post.title}
             </Link>
-            {this.renderCategories()}
           </h3>
 
           <div className="posts-item-meta">
-            {post.user? <div className="posts-item-user"><Components.UsersAvatar user={post.user} size="small"/><Components.UsersName user={post.user}/></div> : null}
+		    <img src="https://s2.googleusercontent.com/s2/favicons?domain=\{Posts.getLink(post)\}" />
             <div className="posts-item-date">{post.postedAt ? <FormattedRelative value={post.postedAt}/> : <FormattedMessage id="posts.dateNotDefined"/>}</div>
             {this.props.currentUser && this.props.currentUser.isAdmin ? <Components.PostsStats post={post} /> : null}
             {Posts.options.mutations.edit.check(this.props.currentUser, post) ? this.renderActions() : null}
+            {this.renderCategories()}
           </div>
 
         </div>
@@ -65,9 +60,5 @@ class PostsItem extends Component {
   }
 }
 
-PostsItem.propTypes = {
-  currentUser: React.PropTypes.object,
-  post: React.PropTypes.object.isRequired,
-};
+replaceComponent('PostsItem', PostsItem);
 
-registerComponent('PostsItem', PostsItem);

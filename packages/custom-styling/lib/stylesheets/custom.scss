@@ -17,8 +17,8 @@ $header-bg: #204261;
 
 }
 
-  .btn-primary {
-     	border: 2px solid #FFF;
+  > .btn-primary {
+    border: 2px solid #FFF;
   	border-radius: 3px;
   	padding: 10px;
   	color: #FFF;
@@ -93,7 +93,7 @@ h4, .h4 {
     font-weight: 400;
 }
 
-.posts-day, .posts-page {
+.posts-day, .posts-page, posts-list-content {
     padding: 10px 20px 0 20px;
     background: #FFF;
     border-radius: 5px;
@@ -110,13 +110,26 @@ h4, .h4 {
     padding: 15px 0px;
 }
 
-.posts-list-content {
-    border-top: none;
+.posts-list-title {
+	display: block;
 }
 
-h3, .h3 {
-    font-weight:400;
+.posts-list-content {
+	padding: 10px 20px 0 20px;
+	background: #FFF;
+	border-radius: 5px;
+	border: 1px solid #E6E6E6;
+
+	h3, .h3 {
+		font-weight:400;
+		display: block;
+	}	
+
+	.posts-categories a {
+		color: #999;
+	}
 }
+
 
 .posts-item:last-child {
     border-bottom: 0px solid #ddd;
@@ -129,12 +142,10 @@ h3, .h3 {
 .posts-page-body {
 	font-size: 1rem;
 
-	h3 {
+	h3, .h3 {
 		font-size: 1.3rem;
-	}
+	}	
 }
-
-
 
 .newsletter .newsletter-form {
     display: block;

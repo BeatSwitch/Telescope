@@ -7,6 +7,10 @@ $header-bg: #204261;
 .header-wrapper{
   background: none;
 
+  .logo {
+	margin-top: 10px;
+  }
+
   .users-account-menu, .users-menu{
   .dropdown-toggle{
   	border: 2px solid #FFF;
@@ -39,6 +43,8 @@ $header-bg: #204261;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: $header-bg;
+
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(https://s3-eu-west-1.amazonaws.com/festivaltech/masthead.png) 49.9% 49.9% / cover;
 
 	.text{
 

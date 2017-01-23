@@ -46,7 +46,7 @@ class PostsItem extends Component {
           </h3>
 
           <div className="posts-item-meta">
-		    <img src="https://s2.googleusercontent.com/s2/favicons?domain=\{Posts.getLink(post)\}" />
+		    <img className="favicon"  src={"https://s2.googleusercontent.com/s2/favicons?domain=" + post.url} />
             <div className="posts-item-date">{post.postedAt ? <FormattedRelative value={post.postedAt}/> : <FormattedMessage id="posts.dateNotDefined"/>}</div>
             {this.props.currentUser && this.props.currentUser.isAdmin ? <Components.PostsStats post={post} /> : null}
             {Posts.options.mutations.edit.check(this.props.currentUser, post) ? this.renderActions() : null}

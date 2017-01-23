@@ -5,7 +5,7 @@
     "logoUrl": "https://s3-eu-west-1.amazonaws.com/festivaltech/FESTIVALTECH.png",
     "logoHeight": "80",
     "logoWidth": "250",
-    "faviconUrl": "https://s3-eu-west-1.amazonaws.com/festivaltech/16x16.png",
+    "faviconUrl": "https://s3-eu-west-1.amazonaws.com/festivaltech/favicon.png",
 
     "requirePostsApproval":false,
     "requireViewInvite":false,

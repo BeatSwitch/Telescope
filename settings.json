@@ -1,6 +1,6 @@
 {
   "public": {
-    "title": "Festivaltech.io",
+    "title": "Festivaltech",
 
     "logoUrl": "https://s3-eu-west-1.amazonaws.com/festivaltech/FESTIVALTECH.png",
     "logoHeight": "80",
@@ -26,7 +26,7 @@
     "twitterAccount": "foo",
     "facebookPage": "https://www.facebook.com/festivaltech.io",
 
-    "googleAnalyticsId":"glglk"
+    "googleAnalyticsId":"UA-21532527-12"
   },
 
   "defaultEmail": "hello@festivaltech.io",

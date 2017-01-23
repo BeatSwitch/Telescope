@@ -23,6 +23,9 @@ dump/*
 
 scratch
 
+# dont mind the swp created by vim
+.swp
+
 .deploy
 .deploy/*
 ### Meteor template

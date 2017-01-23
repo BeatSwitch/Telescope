@@ -7,9 +7,9 @@
     "logoWidth": "250",
     "faviconUrl": "https://s3-eu-west-1.amazonaws.com/festivaltech/favicon.png",
 
-    "requirePostsApproval":false,
-    "requireViewInvite":false,
-    "requirePostInvite":false,
+    "requirePostsApproval":true,
+    "requireViewInvite":true,
+    "requirePostInvite":true,
     "enableNewsletter":true,
     "autoSubscribe":false,
     "emailNotifications":true,
@@ -23,7 +23,7 @@
     "language": "en",
     "locale": "en",
     
-    "twitterAccount": "foo",
+    "twitterAccount": "https://twitter.com/festivaltech_io",
     "facebookPage": "https://www.facebook.com/festivaltech.io",
 
     "googleAnalyticsId":"UA-21532527-12"

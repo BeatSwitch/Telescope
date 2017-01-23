@@ -5,7 +5,7 @@ import { replaceComponent } from 'meteor/nova:core'
 
 const Footer = props => {
   return (
-<div className="footer">Festivaltech.io is an initiative from <a href="https://www.beatswitch.com" target="_blank">Beatswitch - Festival Management Technology</a>.</div>
+	<div className="footer">Festivaltech.io is an initiative of <a href="https://www.beatswitch.com" target="_blank">Beatswitch - Festival Management Technology</a>.</div>
   )
 }
 

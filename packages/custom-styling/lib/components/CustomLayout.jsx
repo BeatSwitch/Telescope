@@ -40,7 +40,7 @@ class Layout extends Component {
 
               <Components.Newsletter />
 
-              <a className="twitter-timeline" data-height="500" href="https://twitter.com/Festivaltech_io">Tweets by BeatSwitch</a> <script async src="//platform.twitter.com/widgets.js" charSet="utf-8"></script>
+              <a className="twitter-timeline" data-height="500" href="https://twitter.com/Festivaltech_io">Tweets by Festivaltech</a> <script async src="//platform.twitter.com/widgets.js" charSet="utf-8"></script>
 
             </div>
 

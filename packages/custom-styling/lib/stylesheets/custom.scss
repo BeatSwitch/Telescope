@@ -21,13 +21,13 @@ $header-bg: #204261;
 
 }
 
-  > .btn-primary {
-    border: 2px solid #FFF;
-  	border-radius: 3px;
-  	padding: 10px;
-  	color: #FFF;
-	background: none;
-	margin-right: 10px;
+	.btn-primary {
+		border: 2px solid #FFF;
+		border-radius: 3px;
+		padding: 10px;
+		color: #FFF;
+		background: none;
+		margin-right: 10px;
 	}
 
 	.btn-primary:hover {
@@ -38,16 +38,16 @@ $header-bg: #204261;
 
 
 .masthead {
-	height: 340px;
+	height: 450px;
 	background-image: url('	https://s3-eu-west-1.amazonaws.com/festivaltech/masthead.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: $header-bg;
 
-	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(https://s3-eu-west-1.amazonaws.com/festivaltech/masthead.png) 49.9% 49.9% / cover;
+	background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(https://s3-eu-west-1.amazonaws.com/festivaltech/masthead.png) 49.9% 49.9% / cover;
 
 	.text{
-		margin-top: 40px;
+		margin-top: 110px;
 
 		h1 {
 			text-align: center;

@@ -8,7 +8,7 @@ const Logo = ({logoUrl, siteTitle}) => {
       <h1 className="logo-image ">
         <IndexLink to={{pathname: "/"}}>
 			<svg width="240px" height="38px" viewBox="0 0 240 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
-				<rect id="Rectangle-6" stroke="none" fill="#0CD3AB" fillRule="evenodd" x="0" y="1" width="14" height="4"></rect>
+				<rect id="Rectangle-6" stroke="none" fill="#0CD3AB" fillRule="evenodd" x="0" y="0.8" width="14" height="4"></rect>
 				<rect id="Rectangle-6-Copy" stroke="none" fill="#0CD3AB" fillRule="evenodd" x="0" y="8.05769231" width="10.6666667" height="4"></rect>
 				<rect id="Rectangle-6-Copy-2" stroke="none" fill="#0CD3AB" fillRule="evenodd" x="0" y="15.1153846" width="6" height="4"></rect>
 				<text id="A-BEATSWITCH-COMPANY" stroke="none" fill="none" fontFamily="Helvetica" fontSize="10" fontWeight="normal">

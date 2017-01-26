@@ -18,7 +18,7 @@ class Layout extends Component {
 			<div className="text">
 
 					<h1>The latest news in the festival industry</h1> 
-					<h2>The latest festival technology news, curated by the leaders shaping the industry.</h2>
+					<h2>A global community of technologists and festival enthusiasts, pushing festivals into the future.</h2>
 
 			</div>
 

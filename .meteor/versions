@@ -14,18 +14,13 @@ binary-heap@1.0.10
 blaze@2.1.9
 blaze-tools@1.0.10
 boilerplate-generator@1.0.11
-caching-compiler@1.0.6
+caching-compiler@1.1.9
 callback-hook@1.0.10
 check@1.2.4
 chuangbo:cookie@1.1.0
-<<<<<<< HEAD
-coffeescript@1.0.17
-custom-styling@0.0.0
-dburles:collection-helpers@1.0.4
-=======
 coffeescript@1.11.1_4
+custom-styling@0.0.0
 dburles:collection-helpers@1.1.0
->>>>>>> eb2644ad8a31dec5d84ec936b5f4cc64ff6982c5
 ddp@1.2.5
 ddp-client@1.2.9
 ddp-common@1.2.8
@@ -38,11 +33,7 @@ ecmascript-runtime@0.3.15
 ejson@1.0.13
 email@1.1.18
 fortawesome:fontawesome@4.5.0
-<<<<<<< HEAD
-fourseven:scss@3.8.1
-=======
 fourseven:scss@3.10.1
->>>>>>> eb2644ad8a31dec5d84ec936b5f4cc64ff6982c5
 geojson-utils@1.0.10
 hot-code-push@1.0.4
 html-tools@1.0.11
